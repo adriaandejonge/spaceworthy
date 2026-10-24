@@ -216,6 +216,11 @@ enum Locations {
             loc.isInstaller = true
             list.append(loc)
         }
+        add("simRuntimeAsset", "Downloaded iOS Simulator runtime", "/System/Library/AssetsV2/com_apple_MobileAsset_iOSSimulatorRuntime", .system, .command, symbol: "iphone.gen3",
+            "Simulator runtime image downloaded by Xcode and kept by macOS.", hint: "SIP-protected: even sudo cannot delete it. Remove it with Xcode's simctl (install Xcode, run the command, then uninstall Xcode) or leave it; it is harmless but large.",
+            command: "xcrun simctl runtime delete all")
+        add("assetsV2", "macOS downloaded assets", "/System/Library/AssetsV2", .system, .systemInfo, symbol: "shippingbox",
+            "Siri, dictation, fonts and other assets macOS downloads on demand.", hint: "Managed by macOS and SIP-protected; not user-removable.")
         add("sysCaches", "System caches", "/Library/Caches", .system, .systemInfo, symbol: "gearshape",
             "Caches shared by all users.", hint: "Managed by macOS.")
         add("sysLogs", "System logs", "/private/var/log", .system, .systemInfo, symbol: "list.bullet.rectangle",
