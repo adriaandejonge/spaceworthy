@@ -8,6 +8,20 @@ something you need by accident.
 
 <p align="center"><img src="Resources/icon-1024.png" width="160" alt="Spaceworthy icon"></p>
 
+## ⚠️ Disclaimer, or: what "MIT License" means in practice
+
+This app was vibe-coded with embarrassingly little effort 🤖 to work around my
+regrettable decision to buy a MacBook Air with a 256 GB SSD, a configuration
+Apple doesn't even sell anymore because even they figured out it isn't
+Apple-worthy 🍎💾.
+
+If you are going to use an app from the internet to clean up your hard drive,
+you owe it to yourself to have backups of anything you would miss if the
+laptop broke 🧯. I surely haven't verified everything this app does, and AI is
+known to cut a few corners on occasion ✂️, so really, this is at your own
+risk!! The MIT license below says the same thing in lawyer: no warranty, no
+liability, you pressed the button 🫵.
+
 ## What it does
 
 **Overview**
